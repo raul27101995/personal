@@ -1,4 +1,3 @@
-import static descifrado.cambio;
 import java.io.*;
 import java.util.*;
 public class Cifrado {
@@ -48,6 +47,6 @@ public class Cifrado {
         }
     }
     public static void main(String[] arg) throws FileNotFoundException {
-        cambio("archivosincifrado.txt","cambio","archivocifrado.txt");
+        cambio("archivosincifrar.txt","cifrar","archivocifrado.txt");
     }
 }
