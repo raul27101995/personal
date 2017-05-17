@@ -47,6 +47,6 @@ public class descifrado {
         }
     }
     public static void main(String[] arg) throws FileNotFoundException {
-        cambio("archivoparadescifrar.txt","descifrar","archivodescifrado.txt");
+        cambio("escribecifrado.txt","descifrar","leedescifrado.txt");
     }
 }
